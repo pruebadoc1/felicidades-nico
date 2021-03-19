@@ -1,0 +1,74 @@
+
+
+video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translateX(-50%) translateY(-50%);
+
+    z-index: -1;
+
+}
+
+/* Selectores de etiqueta */
+h1 {
+    /* Encabezado 1 */
+    color:aqua;
+    font-size:35px;
+    margin:22px;
+
+}
+
+h2 {
+    /*Encabezado 2*/
+    font-size:25px;
+    padding:0px;
+    margin-left:60px;
+    color: green;
+}
+
+li {
+    margin: 10px;
+    color: aquamarine;
+}
+
+/*
+########## Selectores ##########
+*/
+* {
+    font-family:verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Selector de clase */
+.h1,
+.h2
+{
+    font-style: italic;
+    font-weight: bold;
+}
+.imagen {
+    /*background-position:50% 50%;*/
+
+    width:100px;
+    height:100px 0;
+    margin:50px 0;
+}
+
+/* Selector de id */
+
+#Aja {
+    border:white 2px inset;
+    width: 50%;
+}
+
+p {
+    color: aquamarine;
+}
+
+footer {
+    color: darkgreen;
+}
