@@ -28,13 +28,22 @@ h2 {
     font-size:25px;
     padding:0px;
     margin-left:60px;
-    color: green;
+    color: rgb(0, 153, 255);
 }
 
 li {
     margin: 10px;
-    color: aquamarine;
+    color: rgb(0, 153, 255);
 }
+
+p {
+    color: rgb(0, 153, 255);
+}
+
+footer {
+    color: rgb(0, 153, 255);
+}
+
 
 /*
 ########## Selectores ##########
@@ -65,10 +74,3 @@ li {
     width: 50%;
 }
 
-p {
-    color: aquamarine;
-}
-
-footer {
-    color: darkgreen;
-}
